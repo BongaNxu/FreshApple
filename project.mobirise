@@ -1,0 +1,569 @@
+{
+  "settings": {
+    "name": "Fresh Apple",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#7bc042",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Roboto",
+        "subtitleFont": "Roboto",
+        "textFont": "Roboto",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x126-30.png",
+    "noImageResize": "",
+    "publishType": "github",
+    "publishPath": "file:///Users/evidencenxumalo/Documents/Web%20Projects/Fresh-Apple/Sito%20Web",
+    "versionFirst": "3.8.5",
+    "uniqCompNum": 15,
+    "versionPublish": "3.9.0",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Fresh Apple Media",
+        "meta_descr": "Fresh Apple Media, established February 2014 and are a Johannesburg based B-BBEE Digital Agency.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#5fad40"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#5fad40"
+            },
+            ".link, .dropdown-item": {
+              "color": "#5fad40"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#d6d6d6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e7e7e7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#efefef"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#5fad40",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#7bc042!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#efefef",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#5fad40",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-web-v1-222x128-56.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-6\">WHAT WE DO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-a\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/03-2000x1333-64.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayColor": "#000000",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "ABOUT FRESH APPLE MEDIA",
+                "showText": true,
+                "text": "We are Fresh Apple Media, established February 2014 and are a Johannesburg based B-BBEE Digital Agency.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header3-2\" data-toolbar=\"-mbrBtnMove\">MORE ABOUT US</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html#header3-6\" data-toolbar=\"-mbrBtnMove\">WHAT WE DO?</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/desktop-2000x1333-53.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayColor": "#000000",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "WHO WE ARE?",
+                "showText": true,
+                "text": "We are a full service Digital solution boasting strategic partnerships with black and women owned accredited traditional media agencies. We have over 20 years digital experience amongst the team spanning from Strategy, Media and SEO, Design and Data.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header3-2\" data-toolbar=\"-mbrBtnMove\">ABOUT </a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html#header3-6\" data-toolbar=\"-mbrBtnMove\">WHAT WE DO?</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/01-2000x1334-49.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayColor": "#000000",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "WHAT WE DO?",
+                "showText": true,
+                "text": "<b>Digital Strategy</b> |&nbsp;Insights led strategies<br><b> Planning</b> |&nbsp;Easily understood media plans<br><b> Media Buying </b>| Expert Media Buyers&nbsp;",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header3-6\" data-toolbar=\"-mbrBtnMove\">MORE INFO</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html#contacts1-d\" data-toolbar=\"-mbrBtnMove\">GET IN TOUCH</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-1",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2",
+          "_params": {
+            "paddingTop": "6",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "WHY WE WERE STARTED?",
+          "meta": "FRESH, NIMBLE &amp; Agile\n<br>+&nbsp;<br>ACCESS TO BIG agency TECH\n<br>=<br><b>\nHybrid New Age Agency\n</b>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "7",
+            "bgColor": "#fff"
+          },
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">With Big Agencies either being under-staffed or have an overflow of WORK in their systems… client campaigns end up being a number-in-a-queue (TRAFFIC). Big agencies are under resourced; generally lack the skills or man hours needed to focus on individual brands, especially the small brands. The ratio between skilled resources and expected output is off the mark and proves that the Big agency model as we know it has become inapt in this day and age.</span><br></p><p><br></p><p>Our philosophy is to do great work which is inspired by Fresh Insights no matter the size of our budget. We are driven by Fresh Ideas and great work versus BIG budgets. We have ZERO tolerance for “Cut and Paste and One size fit all formulas” - All because, No two brands are the same, and no two campaigns should be identical.\n</p><p><br></p><p>We take pride in our Fresh Approach, which simply put, is an integration of Media, Create, Content and Data (MCCD) and allows us to simulate and test creative boundaries as well as implement campaign strategies across the board seamlessly. Fresh and Simple is out ethos and can be verified in our people and all our touch points.\n</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/03-2000x1333-20.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "WHO WE ARE?",
+          "caption": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Newly harvested digital marketing communications solutions which are purposeful and easily understood in the minds of consumers.</b><br><br>We are Fresh Apple Media, established February 2014 and are a Johannesburg based B-BBEE Digital Agency.\nWe are a full service Digital solution boasting strategic partnerships with black and women owned accredited traditional media agencies. We have over 20 years digital experience amongst the team spanning from Strategy, Media and SEO, Design and Data.</span><br></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-6",
+          "_params": {
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#efefef",
+            "showMeta": true
+          },
+          "title": "WHAT WE DO (MEDIA)",
+          "meta": "Digital Strategy | Insights led strategies<br>Planning | Easily understood media plans<br>Media Buying | Expert Media Buyers&nbsp;<br>"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-7",
+          "_params": {
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": 2,
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "devices",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title1": "Digital Strategy | <span style=\"font-weight: normal;\">Insights led strategies</span>",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Our strategies are led and driven by fresh insights which we acquire through primary and secondary research methodologies. We boast an in-house research and data competence with a team consisting of a chief analyst and research assistant. We are also subscribed members to the latest amps and census data through third-party strategic partnerships in our network. We offer both Digital and Media strategy under one umbrella as we firmly believe in an integrated outlook versus silos between marketing disciplines.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "edit",
+              "family": "et-line",
+              "active": true,
+              "link": "#",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title2": "Planning | <span style=\"font-weight: normal;\">Easily understood media plans</span>",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Our media team has thorough knowledge of cost models and tactics which are applied to reach our client’s objectives in the most cost effective and results driven manner as possible. \nWe seek to strike a fresh balance by sourcing relevant placements in the right environment, at the right price and time of day and then serve affinity led ads to the right individual in the most convenient format privy to their device access point.  \n",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "cart-add",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "#",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title3": "Media Buying |<span style=\"font-weight: normal;\"> Expert Media Buyers</span>",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "e employ innovative bidding strategies which are unique to Freshapple to all our biddable campaigns.\nWe are expert negotiators promising discounts above 25% for all Insertion Order buys from Local and International publishers. This saving in spend we either rebate to our clients or reinvest in media to make campaigns go the extra mile for our clients.\n",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/02-2000x1333-6.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "FRESH APPLE MEDIA",
+          "caption": "<p><b><i>Newly harvested digital marketing communications solutions which are purposeful and easily understood in the minds of consumers.</i></b></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-a",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT US",
+          "subtitle": "",
+          "form": {
+            "action": "benxumalo@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts1-d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#173017",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-web-white-128x73-23.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\nBuccleuch, Sandton,<br>\nGauteng, 2066",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:ease@freshapple.biz\">ease@freshapple.biz</a><br>\nMobile: +27(0)73 230 6623<br>Phone: +27 (0) 11 057 9754<br>\nWeb: &nbsp;<a href=\"http://www.freshapple.biz\">www.freshapple.biz</a>",
+          "text3": "<p><strong>Links</strong><br>\n<a href=\"index.html#header3-2\">About</a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br>\n<a href=\"index.html#header3-6\">What we do?</a><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a><br>\n<a href=\"index.html#contacts1-d\">Contact US</a><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-b",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Fresh Apple Media, "
+        }
+      ]
+    }
+  }
+}
