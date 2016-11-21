@@ -25,7 +25,7 @@
     "publishType": "github",
     "publishPath": "file:///Users/evidencenxumalo/Documents/Web%20Projects/Fresh-Apple/Sito%20Web",
     "versionFirst": "3.8.5",
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "3.9.0",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -504,6 +504,21 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "map1",
+          "_anchor": "map1-f",
+          "_params": {
+            "googleMap": {
+              "address": "18 Gibson Drive West,\nSandton, Gauteng,\n2066",
+              "placeId": "ChIJsd8j_YVylR4Rf76zQMWHBao",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "contacts1",
           "_styles": {
             "STRONG": {
@@ -539,7 +554,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\nBuccleuch, Sandton,<br>\nGauteng, 2066",
+          "text1": "<strong>Address</strong><br>18 Gibson Drive West,<br>Sandton, Gauteng,<br>2066<br>",
           "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:ease@freshapple.biz\">ease@freshapple.biz</a><br>\nMobile: +27(0)73 230 6623<br>Phone: +27 (0) 11 057 9754<br>\nWeb: &nbsp;<a href=\"http://www.freshapple.biz\">www.freshapple.biz</a>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"index.html#header3-2\">About</a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br>\n<a href=\"index.html#header3-6\">What we do?</a><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a><br>\n<a href=\"index.html#contacts1-d\">Contact US</a><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
         },
